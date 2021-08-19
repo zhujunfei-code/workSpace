@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "redis.maxIdle",
+      "type": "java.lang.String",
+      "description": "Description for redis.maxIdle."
+    }
+  ]
+}
