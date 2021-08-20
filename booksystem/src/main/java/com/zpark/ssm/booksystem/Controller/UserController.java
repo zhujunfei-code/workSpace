@@ -16,6 +16,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    /**
+     *
+     * @param user
+     * @return
+     */
     @PostMapping("/login")
     public Object login(User user) {
         User u = userService.login(user);
