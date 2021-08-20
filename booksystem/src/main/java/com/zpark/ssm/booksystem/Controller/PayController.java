@@ -19,7 +19,7 @@ public class PayController {
 
     /**
      * 使用支付宝支付功能前，需要先添加依赖： alipay-sdk
-     *曾多次
+     *曾多次fdgbdf
      * @param money
      * @return
      */
@@ -53,8 +53,7 @@ public class PayController {
         //请求
         String url = "";
         try {
-            url = alipayClient.pageExecute(alipayRequest).getBody(); //调用SDK生成表单
-
+            url = alipayClient.pageExecute(alipayRequest).getBody(); //调用SDK生成表
             response.setContentType("text/html;charset=" + AliPayUtil.charset);
 
             response.getWriter().write(url); // 直接将完整的表单html输出到页面
