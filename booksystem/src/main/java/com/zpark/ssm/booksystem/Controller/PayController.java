@@ -19,7 +19,7 @@ public class PayController {
 
     /**
      * 使用支付宝支付功能前，需要先添加依赖： alipay-sdk
-     *
+     *曾多次
      * @param money
      * @return
      */
